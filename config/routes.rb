@@ -1,12 +1,19 @@
 UserConacts::Application.routes.draw do
   
   root :to => 'pages#home'
+<<<<<<< HEAD
 
 match '/contact', :to => 'pages#contact'
 match '/about',   :to => 'pages#about'
 match '/help',    :to => 'pages#help'
 #match '/home',    :to =>' pages#home'
   get "pages/home"
+=======
+match '/contact', :to => 'pages#contact'
+match '/about',   :to => 'pages#about'
+match '/help',    :to => 'pages#help'
+  #get "pages/home"
+>>>>>>> 6e720f8d1690db0316657bbf1d49e7b9c020345b
 
   #get "pages/contact"
 
